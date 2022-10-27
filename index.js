@@ -211,17 +211,19 @@ function handleTouchMove(evt) {
     /*most significant*/
     if (xDiff > 0) {
       /* right swipe */
-      moveRight();
+      moveLeft();
+     
     } else {
       /* left swipe */
-      moveLeft();
+      moveRight();
     }
   } else {
     if (yDiff > 0) {
       /* down swipe */
+      createBullet();
     } else {
       /* up swipe */
-      createBullet();
+      
     }
   }
   /* reset values */
