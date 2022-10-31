@@ -13,7 +13,7 @@ let killedArmy = 0;
 let bulletsUsed = 0;
 let bulletFired = 0;
 let leftLimit = 0;
-let rightLimit = gameboardDiamension.clientWidth / 48;
+let rightLimit = gameboardDiamension.clientWidth / 50;
 let bulletDisappearLimit = 0;
 
 createAliensArmy = () => {
